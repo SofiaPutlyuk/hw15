@@ -1,0 +1,32 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    justify-content: center;
+}
+
+li {
+    width: 250px;
+    height: 300px;
+    background: url("https://media.giphy.com/media/hFhygTRHt4jvGQo52q/giphy.gif?cid=ecf05e47ognlkh1q5v8e8ku5aysq05l9f18yjyfskkobk8au&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-repeat: no-repeat;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    color: white;
+    font-size: 12px;
+}
