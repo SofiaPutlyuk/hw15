@@ -1,0 +1,45 @@
+.inputGif {
+    width: 600px;
+    height: 50px;
+    background: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif?cid=ecf05e47g0rydjnmerrih6nhjf714t2ijen88u2bki4it3qi&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-clip: padding-box;
+    padding-left: 30px;
+    caret-color: white;
+    border: none;
+}
+
+.inputGif::placeholder {
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 52px;
+    background: url("https://media.giphy.com/media/esMcTxGMz3Hhu/giphy.gif?cid=ecf05e47jabj7a568rwzopsbo0uz871ggjpm95ehdphh1ple&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-clip: padding-box;
+    color: white;
+    position: relative;
+    border: none;
+    width: 100px;
+    right: 100px;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+}
+
+h1 {
+    font-size: 58px;
+    background-image: url("https://media.giphy.com/media/73WrT6n6yoVfq/giphy.gif?cid=ecf05e47uqowfhpm0rikgwrqczm5ghyv27azam4ao66jdewm&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
